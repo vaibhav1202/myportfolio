@@ -66,7 +66,7 @@ class Contact extends Component {
       to_name:'agrawalvaibhav12@gmail.com',
       message_html:this.state.message
     }
-    emailjs.send('gmail', 'template_JziQyPy5', templateParams, 'user_AWz63hRA6boJqti86unAg').then(function(response){
+    emailjs.send('gmail', 'Template ID', templateParams, 'user ID').then(function(response){
       toastr.success('Message sent successfully')
       console.log('SUCCESS!', response.status, response.text)
     },function(err){
