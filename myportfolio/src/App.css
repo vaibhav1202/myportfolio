@@ -1,0 +1,186 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b6b4d4, #5864a8, #3d3c96);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6b4d4, #5864a8, #3d3c96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b6b4d4, #5864a8, #3d3c96);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6b4d4, #5864a8, #3d3c96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative;
+  top: 0%;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.menu a {
+  color: white;
+  background-color: whitesmoke  ;
+  text-decoration: none;
+  border-bottom: transparent solid 1px;
+  padding-bottom: 5px;
+}
+.menu a:hover {
+  color: #FFF;
+  background-color: #252525;
+  border-bottom: white solid 1px;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.aboutme-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.aboutme-grid h2 {
+  color:#9694aa;
+}
+
+.aboutme-grid p {
+  width: 75%; 
+  margin: auto; 
+  font-size:16px; 
+  font-family:OpenSans; 
+  color: #88879b;
+  }
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 30px;
+  padding-right: 5rem;
+}
+
+
+.contact-workt {
+  padding-top: 1.4em;
+  font-size: 30px;
+}
+
+.form{
+  width:95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.link:-moz-focus-inner{
+  border: 0%;
+}
+
+.button{
+  background-color: rgb(59, 56, 241);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 70%;  
+}
+
+.button:hover {
+  background-color: blue;
+}
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: block;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
